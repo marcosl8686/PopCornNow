@@ -20,6 +20,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -86,13 +87,13 @@
                         </div>
                         <div class="form-group">
                             <label for="genre"><h3>Genre:</h3></label>
-                            <input type="password" class="form-control" id="genre">
+                            <input type="text" class="form-control" id="genre">
                         </div>
                         <div class="form-group">
                             <label for="zipCode"><h3>Zip Code:</h3></label>
-                            <input type="password" class="form-control" id="zipCode">
+                            <input type="text" class="form-control" id="zipCode">
                         </div>
-                        <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Submit</span></a>
+                        <a href="#" class="btn btn-default btn-lg"> <span class="network-name" id="submit">Submit</span></a>
                     </form>
 
 
@@ -279,6 +280,7 @@
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
