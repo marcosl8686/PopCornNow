@@ -2,297 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b28c0be1-c1e5-4741-9060-ba33e90e9a07" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_includes/ad.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_includes/disqus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_includes/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_includes/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_includes/heading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_includes/javascript.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_includes/nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_includes/search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_layouts/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_layouts/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_layouts/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_layouts/template-category.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_layouts/template-overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2013-09-05-introducing-start-bootstrap.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2013-09-06-two-new-templates-small-business-half-slider.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2013-09-17-big-plans-for-start-bootstrap.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2013-09-22-structural-updates.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2013-09-26-new-template-modern-business.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2013-10-02-new-theme-stylish-portfolio.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2013-10-13-three-new-portfolio-templates.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2013-10-15-new-theme-business-casual.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2013-10-24-new-template-sb-admin.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2013-11-23-new-ecommerce-templates.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2014-01-07-new-theme-landing-page-premium-flex-admin-theme-launched.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2014-01-14-new-theme-sb-admin-2.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2014-08-25-one-year-of-start-bootstrap.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2014-09-25-new-theme-clean-blog.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2014-10-29-start-bootstrap-templates-now-have-own-repo.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2016-02-06-start-bootstrap-moves-to-mit-licensing.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_posts/2016-08-10-three-years-of-start-bootstrap.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-07-premium-pixel-admin.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-08-premium-atropos.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-10-premium-flatify.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-11-premium-reen.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-12-premium-sing-app.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-13-premium-angle.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-14-premium-unify.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-15-premium-velocity.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-16-premium-inspinia.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-17-premium-flex-admin.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-18-premium-spectrum.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_premium/2014-05-19-premium-vitality.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/_base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/_syntax-highlighting.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/sections/_ad.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/sections/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/sections/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/sections/_index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/sections/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/sections/_posts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/sections/_resources.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/sections/_search.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_sass/sections/_template-overviews.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-21-template-bare.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-blog-home.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-blog-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-business-frontpage.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-full-slider.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-full.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-half-slider.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-heroic-features.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-logo-nav.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-one-page-wonder.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-round-about.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-small-business.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-the-big-picture.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-22-template-thumbnail-gallery.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-23-template-full-width-pics.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-24-template-1-col-portfolio.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-24-template-2-col-portfolio.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-24-template-3-col-portfolio.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-24-template-4-col-portfolio.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-26-template-modern-business.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-09-28-template-simple-sidebar.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-10-02-template-stylish-portfolio.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-10-13-template-portfolio-item.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-10-13-template-sb-admin.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-10-15-template-business-casual.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-11-23-template-shop-homepage.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2013-11-23-template-shop-item.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2014-01-07-template-landing-page.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2014-01-14-template-sb-admin-2.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2014-01-28-template-grayscale.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2014-02-04-template-scrolling-nav.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2014-05-01-template-freelancer.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2014-07-16-template-agency.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2014-09-25-template-clean-blog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2015-04-08-template-creative.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/_templates/2016-09-01-template-new-age.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/articles/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap-design-services.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap-resources.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_button-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_card.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_carousel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_close.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_code.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_custom-forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_custom.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_images.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_input-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_jumbotron.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_popover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_print.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_reboot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_responsive-embed.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_transitions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/bootstrap-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/bootstrap-reboot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/bootstrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_background-variant.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_border-radius.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_breakpoints.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_gradients.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_grid-framework.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_hover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_image.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_nav-divider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_navbar-align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_reset-text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_resize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_size.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_table-row.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_text-emphasis.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_text-hide.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_text-truncate.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_transforms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/mixins/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_background.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_borders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_display.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_flex.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_position.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_screenreaders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_sizing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_spacing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/bootstrap/utilities/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/buy-bootstrap-templates.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/css/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/feed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/help.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/authors/david-miller.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/brand-logos/anchor-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/brand-logos/blogger-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/brand-logos/ghost-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/brand-logos/grav-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/brand-logos/jekyll-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/brand-logos/meteor-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/apple-touch-icon-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/apple-touch-icon-120x120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/apple-touch-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/apple-touch-icon-152x152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/apple-touch-icon-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/apple-touch-icon-60x60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/apple-touch-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/apple-touch-icon-76x76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/favicon-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/favicon-196x196.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/favicon-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/mstile-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/mstile-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/mstile-310x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/mstile-310x310.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/favicons/mstile-70x70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/og/startbootstrap-logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/angle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/atropos.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/flatify.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/flex-admin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/inspinia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/pixel-admin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/reen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/sing-app.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/spectrum.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/unify.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/velocity.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/premium/vitality.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/showcase/halil.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/showcase/marko.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/showcase/provolve.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/showcase/unimo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/showcase/union.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/1-col-portfolio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/2-col-portfolio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/3-col-portfolio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/4-col-portfolio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/agency.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/bare.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/blog-home.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/blog-post.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/business-casual.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/business-frontpage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/clean-blog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/creative.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/freelancer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/full-slider.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/full-width-pics.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/full.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/grayscale.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/half-slider.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/heroic-features.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/landing-page.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/logo-nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/modern-business.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/new-age.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/one-page-wonder.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/portfolio-item.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/round-about.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/sb-admin-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/sb-admin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/scrolling-nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/shop-homepage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/shop-item.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/simple-sidebar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/small-business.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/stylish-portfolio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/the-big-picture.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/templates/thumbnail-gallery.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/img/wrapbootstrap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/js/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/js/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/search_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/showcase.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/admin-dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/all.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/blogs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/ecommerce.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/full-websites.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/landing-pages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/navigation-menus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/one-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/popular.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/portfolios.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startbootstrap-master/template-categories/unstyled.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mapTheater.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/redbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/terminator_two_judgement_day.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/theater.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landing-page.css" afterPath="$PROJECT_DIR$/css/landing-page.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -310,102 +25,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="landing-page.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/landing-page.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-awesome.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/font-awesome/less/core.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/font-awesome/less/list.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="path.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/font-awesome/less/path.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icons.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/font-awesome/less/icons.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="larger.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/font-awesome/less/larger.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="84">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing-page.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/landing-page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -416,6 +51,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/landing-page.css" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -423,9 +66,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
-    <option name="y" value="91" />
-    <option name="width" value="1916" />
+    <option name="x" value="962" />
+    <option name="width" value="958" />
     <option name="height" value="1200" />
   </component>
   <component name="ProjectView">
@@ -443,7 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -456,9 +98,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PopCornNow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PopCornNow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PopCornNow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PopCornNow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,8 +138,12 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -506,6 +180,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -539,34 +219,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489629984069</updated>
-      <workItem from="1489629985673" duration="1160000" />
+      <workItem from="1489629985673" duration="1697000" />
+      <workItem from="1489798697795" duration="239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1160000" />
+    <option name="totallyTimeSpent" value="1936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="91" width="1916" height="1200" extended-state="0" />
+    <frame x="962" y="0" width="958" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33084312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942238" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32300884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24907847" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32300884" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -579,190 +278,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascript/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/premium/atropos.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/premium/unify.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/premium/angle.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/premium/reen.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/authors/david-miller.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/og/startbootstrap-logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/ad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/disqus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/heading.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/javascript.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/premium/atropos.jpg" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/premium/unify.jpg" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/premium/angle.jpg" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/premium/reen.jpg" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/authors/david-miller.png" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/bg.png" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/img/og/startbootstrap-logo.jpg" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/css/main.scss" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/js/scripts.js" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/js/search.js" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/index.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_layouts/post.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_config.yml" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/ad.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/nav.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/head.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/disqus.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/footer.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/search.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/heading.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/index.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_layouts/page.html" />
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-master/_includes/javascript.html" />
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/landing-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,7 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +342,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/less/core.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/less/list.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/less/path.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/less/icons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/less/larger.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -790,50 +398,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome/less/core.less">
+    <entry file="file://$PROJECT_DIR$/css/landing-page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome/less/list.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome/less/path.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome/less/icons.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome/less/larger.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="411">
+          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="84">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>
