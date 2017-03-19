@@ -4,8 +4,9 @@
         <style type="text/css">
             .tile {display: inline-block; border: 1px solid grey; background: silver; padding: 4px; text-align: center; font-size: 15px;width:250px; }
         </style>
+        <script src="js/lodash.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-        <script>
+        <script >
 
             // construct the url with parameter values
             var apikey = "nxpbe8qerd6deydtfsh2sard";
@@ -20,7 +21,8 @@
                 // send off the query
                 $.ajax({
                     url: showtimesUrl,
-                    data: {	startDate: today,
+                    data: {
+                        startDate: today,
                         zip: zipCode,
                         jsonp: "dataHandler",
                         api_key: apikey
@@ -31,19 +33,25 @@
 
             // callback to handle the results
             function dataHandler(data) {
-                console.log(data); // All objects
-                console.log(data[0]); //first object
-                console.log(data[0]['longDescription']); // long Description
-                console.log()
+                var myObj = _.map(data, function (item) {
+                    return{
+                        title: item.title,
+                        cast: item.topCast,
+                        theater: item.showtimes[0].theatre.name,
+                        showtime: item.showtimes[0].dateTime,
+                        link: item.showtimes[0].ticketURI
+                    }
+                })
+                console.log('MyOBJ', myObj);
 
-                $(document.body).append('<p>Found ' + data.length + ' movies showing within 5 miles of ' + zipCode+':</p>');
-                var movies = data.hits;
-                $.each(data, function(index, movie) {
-                    var movieData = '<div class="tile"><img src="http://developer.tmsimg.com/' + movie.preferredImage.uri + '?api_key='+apikey+'"><br/>';
-                    movieData += movie.title;
-                    if (movie.ratings) { movieData += ' (' + movie.ratings[0].code + ') </div>' };
-                    $(document.body).append(movieData);
-                });
+                //Traverse an array
+                for(var i=0; i < myObj.length;i++){
+                    //console.log(myObj[i].title);
+                    if('Logan' === myObj[i].title){
+                        console.log('found the movie title', myObj[i]);
+                    }
+                }
+
             }
 
         </script>
