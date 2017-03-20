@@ -33,12 +33,14 @@
 
             // callback to handle the results
             function dataHandler(data) {
+                console.log(data);
                 var myObj = _.map(data, function (item) {
+                    console.log(item.showtimes[1].dateTime);
                     return{
                         title: item.title,
                         cast: item.topCast,
                         theater: item.showtimes[0].theatre.name,
-                        showtime: item.showtimes[0].dateTime,
+                        showtime0: item.showtimes,
                         link: item.showtimes[0].ticketURI
                     }
                 })

@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   // Initialize Firebase
   var config = {
@@ -95,20 +96,44 @@ function displayMovieInfo(x) {
 
 
 
-
-
-
-
-callTheater(90302 , 'Logan');
+    callTheater(90302);
 
 
 
 })
 
-function callTheater(zipCode, movieTitle){
+function TimeFormat(str){
     /***
-     *
-     * @type {string}
+     * Removes the calendar date from the time stamp and return time HH:mm
+     * @type {Array}
+     */
+    var arr = str.split("T");
+    return arr[1];
+}
+
+function displayTheater(obj) {
+    /***
+     * Function display cast, theater name, and showtime on index.html
+     */
+
+    //Theater
+    $("#buyTickets").attr("href", obj.link);
+    //showtime
+    $("#showtime0").html(TimeFormat(obj.showtime[0].dateTime));
+    $("#showtime1").html(TimeFormat(obj.showtime[1].dateTime));
+    $("#showtime2").html(TimeFormat(obj.showtime[2].dateTime));
+    //theater name
+    $("#theaterName").html(obj.theater);
+    //cast
+    $("#cast0").html(obj.cast[0]);
+    $("#cast1").html(obj.cast[1]);
+    $("#cast2").html(obj.cast[2]);
+}
+
+function callTheater(zipCode){
+    /***
+     * Function calls the Theater API and retrieves a JSON object
+     * @param int a zipcode that will display theater according to proximity.
      */
 
     var apikey = "nxpbe8qerd6deydtfsh2sard";
@@ -131,21 +156,28 @@ function callTheater(zipCode, movieTitle){
 }
 
 function dataHandler(data) {
+    /***
+     * Function receives an array of JSON objects and filters objects by specific movie Title
+     * @type {Array}
+     */
     var myObj = _.map(data, function (item) {
         return{
             title: item.title,
             cast: item.topCast,
             theater: item.showtimes[0].theatre.name,
-            showtime: item.showtimes[0].dateTime,
+            showtime: item.showtimes,
             link: item.showtimes[0].ticketURI
         }
     })
-    console.log('MyOBJ', myObj);
 
     //Traverse an array
     for(var i=0; i < myObj.length;i++){
+        // 'Logan' is a place holder we need to verify
         if('Logan' === myObj[i].title){
             console.log('found the movie title', myObj[i]);
+            // need to create a method that will display myObj[i] in html
+            displayTheater(myObj[i]);
+            break;
         }
     }
 
