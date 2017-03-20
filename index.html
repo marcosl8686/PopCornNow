@@ -80,20 +80,36 @@
 
 
                     <!-- The input fields Name, genre, and zip code and submit button. form-group for genre & zipcode are hidden initially -->
-                    <form>
+                    <form id="mainLogin">
                         <div class="form-group">
                             <label for="name"><h3>Name:</h3></label>
                             <input type="text" class="form-control" id="name">
                         </div>
                         <div class="form-group">
                             <label for="genre"><h3>Genre:</h3></label>
-                            <input type="text" class="form-control" id="genre">
+                            <br>
+                        <select class="genreDropDown" name="selector">
+                          <option class="genre" value="28">Action</option>
+                          <option class="genre" value="16">Animation</option>
+                          <option class="genre" value="35">Comedy</option>
+                          <option class="genre" value="27">Horror</option>
+                          <option class="genre" value="10749">Romance</option>
+                          <option class="genre" value="878">Sci-Fi</option>
+                        </select>
                         </div>
                         <div class="form-group">
                             <label for="zipCode"><h3>Zip Code:</h3></label>
                             <input type="text" class="form-control" id="zipCode">
                         </div>
                         <a href="#" class="btn btn-default btn-lg"> <span class="network-name" id="submit">Submit</span></a>
+                        <a href="#" class="btn btn-primary btn-lg"> <span class="network-name" id="lookUp">Look Up</span></a>
+                    </form>
+                    <form id="altLogin">
+                        <div class="form-group">
+                            <label for="name"><h3>Name:</h3></label>
+                            <input type="text" class="form-control" id="findName">
+                        </div>
+                        <a href="#" class="btn btn-default btn-lg"> <span class="network-name" id="altSubmit">Submit</span></a>
                     </form>
 
 
@@ -132,7 +148,7 @@
                 </ul>
             </div>
             <div class="col-lg-5 col-lg-offset-2 col-sm-6" id="moviePoster">
-                <img class="img-responsive" src="img/terminator_two_judgement_day.jpg" alt="poster">
+                <img class="img-responsive" src="img/terminator_two_judgement_day.jpg" alt="poster" id="poster">
             </div>
         </div>
 
@@ -155,9 +171,9 @@
                 <br>
                 <h3>Showtimes</h3>
                 <ul class="list-group">
-                    <a href="#" class="list-group-item">17:00</a>
-                    <a href="#" class="list-group-item">19:30</a>
-                    <a href="#" class="list-group-item">21:00</a>
+                    <a href="#" class="list-group-item">17:00</a><a href="https://github.com/marcosl8686/PopCornNow" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    <a href="#" class="list-group-item">19:30</a><a href="https://github.com/marcosl8686/PopCornNow" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    <a href="#" class="list-group-item">21:00</a><a href="https://github.com/marcosl8686/PopCornNow" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                 </ul>
             </div>
             <div class="col-lg-5 col-sm-pull-6  col-sm-6">
