@@ -178,3 +178,6 @@ form{
 label{
     margin: inherit;
 }
+.genreDropDown {
+    color:black;
+}
