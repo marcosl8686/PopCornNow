@@ -65,6 +65,10 @@ $("#altSubmit").on("click", function(event) {
 	});
 	$(".intro-header").slideUp(2000);
 });
+
+
+
+
 function displayMovieInfo(x) {
 	console.log(x)
 	var queryURL = "https://api.themoviedb.org/3/genre/" + x + "/movies?api_key=" + apiKey + "&language=en-US&include_adult=false&sort_by=created_at.asc";
@@ -95,8 +99,54 @@ function displayMovieInfo(x) {
 
 
 
-
+callTheater(90302 , 'Logan');
 
 
 
 })
+
+function callTheater(zipCode, movieTitle){
+    /***
+     *
+     * @type {string}
+     */
+
+    var apikey = "nxpbe8qerd6deydtfsh2sard";
+    var baseUrl = "http://data.tmsapi.com/v1.1";
+    var showtimesUrl = baseUrl + '/movies/showings';
+    //var zipCode = "90302";
+    var d = new Date();
+    var today = d.getFullYear() + '-' + (d.getMonth()+1) + '-' + d.getDate();
+    // send off the query
+    $.ajax({
+        url: showtimesUrl,
+        data: {
+            startDate: today,
+            zip: zipCode,
+            jsonp: "dataHandler",
+            api_key: apikey
+        },
+        dataType: "jsonp",
+    });
+}
+
+function dataHandler(data) {
+    var myObj = _.map(data, function (item) {
+        return{
+            title: item.title,
+            cast: item.topCast,
+            theater: item.showtimes[0].theatre.name,
+            showtime: item.showtimes[0].dateTime,
+            link: item.showtimes[0].ticketURI
+        }
+    })
+    console.log('MyOBJ', myObj);
+
+    //Traverse an array
+    for(var i=0; i < myObj.length;i++){
+        if('Logan' === myObj[i].title){
+            console.log('found the movie title', myObj[i]);
+        }
+    }
+
+}
