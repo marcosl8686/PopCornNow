@@ -193,7 +193,9 @@ function dataHandler(data) {
     if(flag){
     	console.log('we found your movie');
     }else{
-    	console.log('did not find your movie');
+    	console.log('did not find your movie, callNetflix function');
+    	callNetflix(gmovieTitle);
     }
 
 }
+
