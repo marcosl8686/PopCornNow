@@ -146,7 +146,7 @@ function callTheater(zipCode){
      */
 
     var apikey = "kubjzc8qchxqvwrw2fbu49g7";
-    var baseUrl = "http://data.tmsapi.com/v1.1";
+    var baseUrl = "https://data.tmsapi.com/v1.1";
     var showtimesUrl = baseUrl + '/movies/showings';
     //var zipCode = "90302";
     var d = new Date();
