@@ -1,4 +1,6 @@
 
+var gmovieTitle = '';
+var zipcode = 0;
 $(document).ready(function() {
   // Initialize Firebase
   var config = {
@@ -17,7 +19,6 @@ var database = firebase.database();
 // Initial Values
 var name = "";
 var genre = "";
-var zipCode = 0;
 //MovieDB apiKey
 var apiKey = "6facc36cd18e7e475a81d253d77e92a1";
 
@@ -40,13 +41,20 @@ $("#submit").on("click", function(event) {
    $(".genre").val('');
    $("#zipCode").val('');
    $(".intro-header").slideUp(2000);
+   console.log('This is my movieTitle ' + movieTitle);
+   // console.log(typeof movieTitle);
    displayMovieInfo(genre);
 
+   callTheater(zipCode);
+
 });
+//Capture Button Click -
 $("#lookUp").on("click", function() {
 	$("#mainLogin").fadeOut(1000);
 	$("#altLogin").show();
 })
+
+//function to retrieve data from Firebase
 $("#altSubmit").on("click", function(event) {
 	event.preventDefault();
 	var altName = $("#findName").val().trim();
@@ -58,9 +66,11 @@ $("#altSubmit").on("click", function(event) {
     for (var key in sv) {
     	var objName = sv[key].name;
     	var objGenre = sv[key].genre;
+    	var objZipCode = sv[key].zipCode;
     	if(objName == altName) {
     		console.log("Works");
     		displayMovieInfo(objGenre);
+    		callTheater(objZipCode);
     	}
     }
 	});
@@ -69,12 +79,12 @@ $("#altSubmit").on("click", function(event) {
 
 
 
-
+//MOVIE DB API call to retrieve specific data, and place it to HTML.
 function displayMovieInfo(x) {
 	console.log(x)
 	var queryURL = "https://api.themoviedb.org/3/genre/" + x + "/movies?api_key=" + apiKey + "&language=en-US&include_adult=false&sort_by=created_at.asc";
 
-	// Creating an AJAX call for the specific movie button being clicked
+	// Creating an AJAX call for the specific movie genre
 	$.ajax({
 	  url: queryURL,
 	  method: "GET"
@@ -82,11 +92,12 @@ function displayMovieInfo(x) {
 	  console.log(response);
 	  var moviePoster = response.results[0].poster_path;
 	  var movieTitle = response.results[0].original_title;
+	  gmovieTitle = movieTitle;
 	  var overview = response.results[0].overview;
 	  $("#poster").attr("src", "https://image.tmdb.org/t/p/w500/" + moviePoster);
 	  $("#movieTitle").html(movieTitle);
 	  $("#movieSynopsis").html(overview);
-
+	  console.log('my gmovie: ', gmovieTitle);
 
 
 })
@@ -94,9 +105,6 @@ function displayMovieInfo(x) {
 
 
 
-
-
-    callTheater(90302);
 
 
 
@@ -169,16 +177,23 @@ function dataHandler(data) {
             link: item.showtimes[0].ticketURI
         }
     })
-
+    var flag = false;
     //Traverse an array
     for(var i=0; i < myObj.length;i++){
         // 'Logan' is a place holder we need to verify
-        if('Logan' === myObj[i].title){
+        if(gmovieTitle === myObj[i].title){
             console.log('found the movie title', myObj[i]);
             // need to create a method that will display myObj[i] in html
             displayTheater(myObj[i]);
+            flag = true;
             break;
         }
+        //console.log('Did not find your movie');
+    }
+    if(flag){
+    	console.log('we found your movie');
+    }else{
+    	console.log('did not find your movie');
     }
 
 }
