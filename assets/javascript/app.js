@@ -1,7 +1,6 @@
 
 var gmovieTitle = '';
 var zipcode = 0;
-$(document).ready(function() {
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyDkhL19QkZA9WzWiXXJO7RXuQCYnw3XhBk",
@@ -13,6 +12,10 @@ $(document).ready(function() {
   firebase.initializeApp(config);
 
 //start here!
+
+//Start Google Maps API
+initialize();
+
 $("#altLogin").hide();
 var database = firebase.database();
 
@@ -106,10 +109,6 @@ function displayMovieInfo(x) {
 
 
 
-
-
-})
-
 function TimeFormat(str){
     /***
      * Removes the calendar date from the time stamp and return time HH:mm
@@ -197,3 +196,7 @@ function dataHandler(data) {
     }
 
 }
+
+$("#codeAddress").click(function(){
+    codeAddress();
+})
