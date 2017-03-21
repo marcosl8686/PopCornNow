@@ -1,6 +1,4 @@
 
-var gmovieTitle = '';
-var zipcode = 0;
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyDkhL19QkZA9WzWiXXJO7RXuQCYnw3XhBk",
@@ -20,8 +18,11 @@ $("#altLogin").hide();
 var database = firebase.database();
 
 // Initial Values
+var gmovieTitle = '';
+var zipcode = 0;
 var name = "";
 var genre = "";
+var theaterName = "";
 //MovieDB apiKey
 var apiKey = "6facc36cd18e7e475a81d253d77e92a1";
 
@@ -52,7 +53,8 @@ $("#submit").on("click", function(event) {
 
 });
 //Capture Button Click -
-$("#lookUp").on("click", function() {
+$("#lookUp").on("click", function(event) {
+  event.preventDefault();
 	$("#mainLogin").fadeOut(1000);
 	$("#altLogin").show();
 })
@@ -143,7 +145,7 @@ function callTheater(zipCode){
      * @param int a zipcode that will display theater according to proximity.
      */
 
-    var apikey = "nxpbe8qerd6deydtfsh2sard";
+    var apikey = "kubjzc8qchxqvwrw2fbu49g7";
     var baseUrl = "http://data.tmsapi.com/v1.1";
     var showtimesUrl = baseUrl + '/movies/showings';
     //var zipCode = "90302";
@@ -181,8 +183,10 @@ function dataHandler(data) {
     for(var i=0; i < myObj.length;i++){
         // 'Logan' is a place holder we need to verify
         if(gmovieTitle === myObj[i].title){
+          theaterName = myObj[i].theater;
             console.log('found the movie title', myObj[i]);
             // need to create a method that will display myObj[i] in html
+            codeAddress(theaterName);
             displayTheater(myObj[i]);
             flag = true;
             break;
@@ -197,6 +201,6 @@ function dataHandler(data) {
 
 }
 
-$("#codeAddress").click(function(){
-    codeAddress();
-})
+// $("#codeAddress").click(function(){
+//     codeAddress();
+// })
