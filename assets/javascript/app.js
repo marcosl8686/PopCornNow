@@ -103,9 +103,8 @@ function displayMovieInfo(x) {
 	  $("#movieTitle").html(movieTitle);
 	  $("#movieSynopsis").html(overview);
 	  console.log('my gmovie: ', gmovieTitle);
-
-
-})
+        getCast(movieTitle);
+});
 }
 
 
@@ -182,6 +181,7 @@ function dataHandler(data) {
     //Traverse an array
     for(var i=0; i < myObj.length;i++){
         // 'Logan' is a place holder we need to verify
+        getCast(gmovieTitle);
         if(gmovieTitle === myObj[i].title){
           theaterName = myObj[i].theater;
             console.log('found the movie title', myObj[i]);
@@ -191,13 +191,39 @@ function dataHandler(data) {
             flag = true;
             break;
         }
-        //console.log('Did not find your movie');
+        console.log('Did not find your movie');
     }
     if(flag){
     	console.log('we found your movie');
     }else{
     	console.log('did not find your movie');
+    	//Did not find theater then call OMDB to fill in cast
+
     }
+
+}
+function getCast(title) {
+    /**
+     * function get the cast in the instance the movie theater is does not have that info
+     * @param string
+      */
+    console.log(title);
+    var baseURL = "http://www.omdbapi.com/?t="
+    var baseTitle = title.replace(/\s/g, "+");
+    var queryURL = baseURL + baseTitle;
+
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    }).done(function(response) {
+        console.log('This is my response', response);
+        console.log(response.Actors);
+        var list = response.Actors.split(",");
+        $("#cast0").html(list[0]);
+        $("#cast1").html(list[1]);
+        $("#cast2").html(list[2]);
+
+    })
 
 }
 
