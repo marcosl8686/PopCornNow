@@ -196,7 +196,7 @@
      * function get the cast in the instance the movie theater is does not have that info
      * @param string
       */
-    var baseURL = "http://www.omdbapi.com/?t="
+    var baseURL = "https://www.omdbapi.com/?t="
     var baseTitle = title.replace(/\s/g, "+");
     var searchYear = "&y=" + year;
 
