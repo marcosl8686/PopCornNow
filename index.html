@@ -23,12 +23,6 @@
     <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
     <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyCycVBukJaou_EiNTh8L90SXMO8BR686P8&sensor=false"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
@@ -99,15 +93,15 @@
                             <label for="zipCode"><h3>Zip Code:</h3></label>
                             <input type="text" class="form-control" id="zipCode">
                         </div>
-                        <a href="#" class="btn btn-default btn-lg"><i class="fa fa-arrow-down fa-fw"></i> <span class="network-name" id="submit">Submit</span></a>
-                        <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-search fa-fw"></i> <span class="network-name" id="lookUp">Look Up</span></a>
+                        <button class="btn btn-default btn-lg" id="submit"><i class="fa fa-arrow-down fa-fw"></i>Submit</button>
+                        <button class="btn btn-primary btn-lg" id="lookUp"><i class="fa fa-search fa-fw"></i>Look Up</button>
                     </form>
                     <form id="altLogin">
                         <div class="form-group">
                             <label for="name"><h3>Name:</h3></label>
                             <input type="text" class="form-control" id="findName">
                         </div>
-                        <a href="#" class="btn btn-default btn-lg"> <span class="network-name" id="altSubmit">Submit</span></a>
+                        <button class="btn btn-default btn-lg" id="altSubmit"><i class="fa fa-arrow-down fa-fw"></i>Submit</button>
                     </form>
 
 
@@ -173,15 +167,11 @@
                     <a href="#" class="list-group-item" id="showtime1">19:30</a>
                     <a href="#" class="list-group-item" id="showtime2">21:00</a>
                     <br>
-                    <a href="https://github.com/marcosl8686/PopCornNow" class="btn btn-default btn-lg" id="buyTickets"><i class="fa fa-ticket fa-fw"></i> <span class="network-name">Purchase Tickets</span></a>
+                    <a href="https://github.com/marcosl8686/PopCornNow" class="btn btn-default btn-lg" id="buyTickets" target="_blank"><i class="fa fa-ticket fa-fw"></i> <span class="network-name">Purchase Tickets</span></a>
                 </ul>
             </div>
             <div class="col-lg-5 col-sm-pull-6  col-sm-6">
             <br>
-             <!--   <div align="center" style="height: 30px; width: 530px">
-                <input id="address" type="textbox">
-                <input id="codeAddress" type="button" value="Geocode">
-                </div> -->
                 <div id="map"></div>
             </div>
         </div>
@@ -193,7 +183,7 @@
 <!-- End of Theater section  -->
 
 <!-- Third section RedBox -->
-<div class="content-section-a">
+<div class="content-section-c">
 
     <div class="container">
 
@@ -203,10 +193,12 @@
                 <div class="clearfix"></div>
                 <h2 class="section-heading">Enjoy the film from the comfort of your home</h2>
                 <br>
-                <a href="https://www.amazon.com/s/ref=nb_sb_ss_c_1_7?url=search-alias%3Dinstant-video&field-keywords=beauty+and+the+beast" id="streamMovie" class="btn btn-default btn-lg"><i class="fa fa-film fa-fw"></i> <span class="network-name">Get Movie</span></a>
+                <a href="https://www.amazon.com/s/ref=nb_sb_ss_c_1_7?url=search-alias%3Dinstant-video&field-keywords=beauty+and+the+beast" id="streamMovie" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-film fa-fw"></i> <span class="network-name">Get Movie</span></a>
+                <br>
+                <br>
             </div>
             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                <img class="img-responsive" src="img/amazonPrime.png" alt="">
+                <img class="img-responsive" src="img/amazonPrime.png" alt="amazon" id="amazon">
             </div>
         </div>
 
@@ -228,7 +220,7 @@
                 <ul class="list-inline banner-social-buttons">
 
                     <li>
-                        <a href="https://github.com/marcosl8686/PopCornNow" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/marcosl8686/PopCornNow" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
 
                 </ul>
