@@ -211,7 +211,7 @@ function getCast(title, year) {
      * @param string
       */
     console.log(title);
-    var baseURL = "http://www.omdbapi.com/?t="
+    var baseURL = "https://www.omdbapi.com/?t="
     var baseTitle = title.replace(/\s/g, "+");
     var searchYear = "&y=" + year;
 
