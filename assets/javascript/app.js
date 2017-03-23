@@ -99,11 +99,13 @@ function displayMovieInfo(x) {
 	  var movieTitle = response.results[0].original_title;
 	  gmovieTitle = movieTitle;
 	  var overview = response.results[0].overview;
+	  var date = response.results[0].release_date;
+	  var year = getYear(date);
 	  $("#poster").attr("src", "https://image.tmdb.org/t/p/w500/" + moviePoster);
 	  $("#movieTitle").html(movieTitle);
 	  $("#movieSynopsis").html(overview);
 	  console.log('my gmovie: ', gmovieTitle);
-        getCast(movieTitle);
+        getCast(movieTitle, year);
 });
 }
 
@@ -180,8 +182,6 @@ function dataHandler(data) {
     var flag = false;
     //Traverse an array
     for(var i=0; i < myObj.length;i++){
-        // 'Logan' is a place holder we need to verify
-        getCast(gmovieTitle);
         if(gmovieTitle === myObj[i].title){
           theaterName = myObj[i].theater;
             console.log('found the movie title', myObj[i]);
@@ -197,12 +197,15 @@ function dataHandler(data) {
     	console.log('we found your movie');
     }else{
     	console.log('did not find your movie');
-    	//Did not find theater then call OMDB to fill in cast
+    	//hide theater
+        $(".content-section-b").hide();
 
+    	//call Amazon
+        amazonLink();
     }
 
 }
-function getCast(title) {
+function getCast(title, year) {
     /**
      * function get the cast in the instance the movie theater is does not have that info
      * @param string
@@ -210,8 +213,10 @@ function getCast(title) {
     console.log(title);
     var baseURL = "http://www.omdbapi.com/?t="
     var baseTitle = title.replace(/\s/g, "+");
-    var queryURL = baseURL + baseTitle;
+    var searchYear = "&y=" + year;
 
+    var queryURL = baseURL + baseTitle + searchYear;
+    console.log(queryURL);
     $.ajax({
         url: queryURL,
         method: "GET"
@@ -226,6 +231,23 @@ function getCast(title) {
     })
 
 }
+
+function getYear(date){
+
+    var myYear = date.split("-");
+    console.log('this is myYear', myYear[0]);
+    return myYear[0];
+}
+
+function amazonLink(){
+    var movieTitle = gmovieTitle.replace(/\s/g, "+");
+    var baseULR = "https://www.amazon.com/s/ref=nb_sb_ss_c_1_7?url=search-alias%3Dinstant-video&field-keywords="
+    var url = baseULR + movieTitle;
+    $("#streamMovie").attr("href", url);
+    console.log(url);
+
+}
+
 
 // $("#codeAddress").click(function(){
 //     codeAddress();
